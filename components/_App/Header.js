@@ -16,7 +16,7 @@ function Header() {
   }
     
   return (
-    <Menu fluid ui="menu" inverted>
+    <Menu stackable fluid ui="menu" inverted>
       <Container text>
         <Link href="/">
           <Menu.Item header active={isActive('/')}>
@@ -30,7 +30,7 @@ function Header() {
         </Link>
         <Link href="/cart">
           <Menu.Item header active={isActive('/cart')}>
-            <Icon name="cart" size="medium" />
+            <Icon name="cart" size="small" />
             Cart
           </Menu.Item>
         </Link>
