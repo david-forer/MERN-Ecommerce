@@ -1,17 +1,7 @@
 import React from "react";
-import styles from '../../styles/Hero.module.css'
+
 import {Container, Header, Segment, Grid, Button, Image } from 'semantic-ui-react'
 
-// export default function Hero() {
-//   return (
-//     <div className="ui text container" style={{ background: 'teal', textAlign: 'center', padding: '2em'}}>
-//       <div className="hero-txt">
-//               <h1 className="ui inverted header">Top of the Line Furniture</h1>
-//         <h3 className="ui inverted header"> Delivered direct to your door!</h3>
-//       </div>
-//     </div>
-//   );
-// }
 
 function Hero() {
 
@@ -30,7 +20,7 @@ function Hero() {
                 We Make Only Quality Pieces!
               </Header>
               <p style={{ fontSize: '1.33em' }}>
-                Yes that's right, you thought it was the stuff of dreams, but we only sell perfectly sculpted furniture.
+                Yes that's right, you thought it was the stuff of dreams, but we only sell perfectly built furniture.
               </p>
             </Grid.Column>
             <Grid.Column floated='right' width={8}>
