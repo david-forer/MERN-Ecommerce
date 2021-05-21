@@ -2,11 +2,13 @@ import React, { useEffect } from "react";
 import axios from "axios";
 import ProductList from "../components/Index/ProductList";
 import ProductPagination from "../components/Index/ProductPagination";
+import Hero from "../components/Index/Hero";
 import baseUrl from "../utils/baseUrl";
 
 function Home({ products, totalPages }) {
   return (
     <>
+      <Hero />
       <ProductList products={products} />
       <ProductPagination totalPages={totalPages} />
     </>
